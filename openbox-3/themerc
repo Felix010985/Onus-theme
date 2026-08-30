@@ -1,0 +1,79 @@
+!! Onus by FelixProfi
+
+!! Menu background
+menu.items.bg: flat
+menu.items.bg.color: #1e1e1e
+menu.overlap.x: -4
+
+!! Menu text
+menu.items.text.color: #ffffff
+menu.items.justify: left
+menu.items.disabled.text.color: #555555
+
+!! Menu separator
+menu.separator.padding.height: 2
+menu.separator.color: #242424
+
+!! Menu border
+menu.border.width: 1
+menu.border.color: #333333
+
+!! Menu headers
+menu.title.bg: flat
+menu.title.bg.color: #242424
+menu.title.text.color: #ffffff
+menu.title.text.justify: center
+
+!! Selected menu item
+menu.items.active.bg: flat
+menu.items.active.bg.color: #333333
+menu.items.active.text.color: #ffffff
+
+!! Titlebar
+window.active.title.bg: flat
+window.active.title.bg.color: #242424
+window.inactive.title.bg: flat
+window.inactive.title.bg.color: #1e1e1e
+
+!! Titlebar text
+window.label.text.justify: center
+window.active.label.bg: parentrelative
+window.active.label.text.color: #ffffff
+window.inactive.label.bg: parentrelative
+window.inactive.label.text.color: #777777
+
+!! Window buttons
+window.*.button.*.bg: parentrelative
+window.active.button.*.hover.bg: flat
+window.inactive.button.*.hover.bg: flat
+window.*.button.*.pressed.bg: flat
+
+window.active.button.*.hover.bg.color: #3d3d3d
+window.active.button.*.pressed.bg.color: #1e1e1e
+window.inactive.button.*.pressed.bg.color: #1e1e1e
+
+window.active.button.*.image.color: #ffffff
+window.active.button.disabled.image.color: #555555
+window.inactive.button.*.image.color: #777777
+window.inactive.button.disabled.image.color: #555555
+window.active.button.border.width: 0
+window.inactive.button.border.width: 0
+
+!! Borders
+window.active.border.color: #333333
+window.inactive.border.color: #1e1e1e
+border.width: 1
+padding.width: 4
+padding.height: 6
+window.handle.width: 0
+window.active.client.color: #242424
+window.inactive.client.color: #1e1e1e
+window.client.padding.width: 0
+window.client.padding.height: 0
+
+!! On-screen displays
+osd.bg: flat
+osd.border.width: 1
+osd.bg.color: #242424
+osd.border.color: #333333
+osd.label.text.color: #ffffff
