@@ -2,7 +2,7 @@
 Onus is a dark mode, simple but beautiful theme
 ## Current ports
 Onus is currently ported to:
-- i3wm
+- i3wm (wip)
 - Openbox
 - Polybar
 - Rofi
