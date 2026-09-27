@@ -1,0 +1,59 @@
+* {
+    bg:      #1e1e1e;
+    fg:      #ffffff;
+    accent:  #333333;
+    dim:     #555555;
+
+    background-color: transparent;
+    text-color:       @fg;
+}
+
+window {
+    anchor:           center;
+    location:         center;
+    width:            500px;
+    background-color: @bg;
+    border:           1px;
+    border-color:     @accent;
+    padding:          0px;
+}
+
+mainbox {
+    children: [ inputbar, listview ];
+    spacing:  0px;
+}
+
+inputbar {
+    children:         [ entry, num-filtered-rows ];
+    padding:          6px 10px;
+    background-color: #242424;
+    border:           0px 0px 1px 0px;
+    border-color:     @accent;
+}
+
+entry {
+    placeholder:       "Type to filter...";
+    placeholder-color: @dim;
+}
+
+num-filtered-rows {
+    text-color: @dim;
+    expand:     false;
+}
+
+listview {
+    lines:        10;
+    scrollbar:    false;
+    fixed-height: false;
+    spacing:      0px;
+    padding:      4px 0px;
+}
+
+element {
+    padding: 4px 10px;
+}
+
+element selected {
+    background-color: @accent;
+    text-color:       @fg;
+}
