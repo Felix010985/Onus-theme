@@ -5,5 +5,6 @@ Onus is currently ported to:
 - i3wm
 - Openbox
 - Polybar
+- Rofi
 
 You can port the theme to whatever WM or application you want, and i would appreciate that 
